@@ -1,0 +1,22 @@
+
+{
+  "name": "fts",
+  "version": "1.0.0",
+  "description": "Lightweight self-hosted Git server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc server.ts --module commonjs --target ES2020 --esModuleInterop --skipLibCheck && tsc cli.ts --module commonjs --target ES2020 --esModuleInterop --skipLibCheck"
+  },
+  "keywords": ["git", "server", "typescript"],
+  "author": "bulba2280",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
