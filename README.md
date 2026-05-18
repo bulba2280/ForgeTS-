@@ -26,22 +26,22 @@ node server.js
 # CLI client 
 ```bash
 # Регистрация
-node client/cli.js register username email password
+node cli.js register username email password
 
 # Логин
-node client/cli.js login username password
+node cli.js login username password
 
 # Создать репозиторий
-node client/cli.js init repo-name "Описание"
+node cli.js init repo-name "Описание"
 
 # Список репозиториев
-node client/cli.js list
+node cli.js list
 
 # Файлы в репозитории
-node client/cli.js files repo-name
+node cli.js files repo-name
 
 # Содержимое файла
-node client/cli.js file repo-name path/to/file.js
+node cli.js file repo-name path/to/file.js
 ```
 
 # Технологии
